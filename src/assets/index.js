@@ -1,0 +1,16 @@
+export {default as thumbnail1} from "./image-product-1-thumbnail.jpg";
+export {default as img1} from "./image-product-1.jpg";
+export {default as thumbnail2} from "./image-product-2-thumbnail.jpg";
+export {default as img2} from "./image-product-2.jpg";
+export {default as thumbnail3} from "./image-product-3-thumbnail.jpg";
+export {default as img3} from "./image-product-3.jpg";
+export {default as thumbnail4} from "./image-product-4-thumbnail.jpg";
+export {default as img4} from "./image-product-4.jpg";
+export {default as plus} from "./icon-plus.svg";
+export {default as minus} from "./icon-minus.svg";
+export {default as cart} from "./icon-cart.svg";
+export {default as avatar} from "./image-avatar.png";
+export {default as deleteIcon} from "./icon-delete.svg";
+export {default as closeIcon} from "./icon-close.svg";
+export {default as nextIcon} from "./icon-next.svg";
+export {default as previousIcon} from "./icon-previous.svg";

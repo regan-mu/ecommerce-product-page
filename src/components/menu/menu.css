@@ -1,0 +1,31 @@
+.product__menu {
+    height: 90%;
+    display: flex;
+    gap: 64px;
+    align-items: flex-start;
+}
+.product__menu-items {
+    display: flex;
+    height: 100%;
+    gap: 32px;
+    color: rgb(74, 74, 74);
+    font-weight: lighter;
+}
+.product__menu-items p {
+    position: relative;
+    cursor: pointer;
+    height: 100%;
+}
+.product__menu-items p::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.2s linear;
+}
+.product__menu-items p:hover::after {
+    width: 100%;
+}
