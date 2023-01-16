@@ -14,3 +14,10 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     position: relative;
 }
+
+@media screen and (max-width: 480px) {
+    .product-page {
+        padding: 16px 8px;
+        height: max-content;
+    }
+}

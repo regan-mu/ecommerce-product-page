@@ -80,3 +80,11 @@
     border-radius: 8px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .product-page__cart {
+        right: 50%;
+        top: calc(100% + 12px);
+        transform: translateX(50%);
+    }
+}

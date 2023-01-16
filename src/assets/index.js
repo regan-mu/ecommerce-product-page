@@ -14,3 +14,5 @@ export {default as deleteIcon} from "./icon-delete.svg";
 export {default as closeIcon} from "./icon-close.svg";
 export {default as nextIcon} from "./icon-next.svg";
 export {default as previousIcon} from "./icon-previous.svg";
+export {default as menu} from "./icon-menu.svg";
+export {default as logo} from "./logo.svg";

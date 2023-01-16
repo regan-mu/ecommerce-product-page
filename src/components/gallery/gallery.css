@@ -16,6 +16,7 @@
     height: 100%;
     border-radius: 16px;
     margin: 0 auto;
+    cursor: pointer;
 }
 .other-images {
     display: flex;
@@ -48,4 +49,10 @@
 }
 .img-container:hover::after {
     height: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .product__images {
+        display: none;
+    }
 }

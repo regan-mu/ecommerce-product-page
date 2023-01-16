@@ -8,3 +8,8 @@
     border-bottom: 0.1px solid rgb(190, 190, 190);
     position: relative;
 }
+@media screen and (max-width: 480px) {
+    .product__header {
+        width: 100%;
+    }
+}

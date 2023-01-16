@@ -1,9 +1,26 @@
 .product__description {
     width: 90%;
     margin: 0 auto;
-    height: calc(100vh - 116px);
+    min-height: max-content;
     padding: 32px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
+    position: relative;
+}
+.product__description > .product__gallery-popup {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .product__description {
+        width: 100%;
+        grid-template-rows: repeat(2, max-content);
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 16px 0;
+    }
+    .product__description > .product__gallery-popup {
+        display: flex;
+    }
 }

@@ -78,3 +78,31 @@
     height: 100%;
     border-radius: 8px;
 }
+
+@media screen and (max-width: 480px) { 
+    .product__gallery-popup {
+        width: calc(100% - 0px);
+        height: max-content;
+        position: relative;
+        background-color: #fff;
+        z-index: 2;
+    }
+    .product__gallery-popup__inner {
+        width: 100%;
+    }
+    .close-container {
+        display: none;
+    }
+    .image__main {
+        border-radius: 0;
+    }
+    .next {
+        left: calc(100% - 48px)
+    }
+    .prev {
+        right: calc(100% - 48px)
+    }
+    .popup__thumbnail-images {
+        display: none;
+    }
+}
